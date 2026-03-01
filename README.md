@@ -16,6 +16,7 @@ Corrections and enhancements
   - clarity on the return type, as ToCommaSeparatedList might suggest the method is returning a collection
   - additional parameter, delimiter, enhances the reusability of this method
   - giving delimiter a comma as the default value prevents the signature change breaking dependencies
+- Assume the input data may not be clean, the method should have the ability to yield clean results
 - Skipping null check for items due to Nullable reference types enabled
 - Short circuit returning empty string when items array contains no item 
 - Create new string array to prevent making changes to the values in reference type items, which might be used somewhere else
