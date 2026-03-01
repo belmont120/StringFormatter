@@ -10,7 +10,7 @@ Requirements in the `StringFormatter.cs` file
 - Fixing typos
 - Any other light-weight optimisation
 
-Corrections and enhancements
+Corrections and enhancements 
 - Correct typo in ToCommaSeparatedList
 - rename ToCommaSeparatedList to ToDelimiterSeparatedQuotedString with an additional parameter named delimiter for:
   - clarity on the return type, as ToCommaSeparatedList might suggest the method is returning a collection
@@ -25,7 +25,7 @@ Corrections and enhancements
 - Trimming delimiter ensures the separation always to be the delimiter followed by a single whitespace
 - string.Join offers better readability and performance compared to a StringBuilder
 - Unit tests included with 100% code coverage
-- Benchmarking included
+- Overall offers at least 100% performance gain and approximately 10% less memory allocation on large string array input
 
 Benchmark Result:
 
